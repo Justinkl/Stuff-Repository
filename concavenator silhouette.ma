@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: concavenator silhouette.ma
-//Last modified: Mon, Jan 23, 2017 05:52:03 PM
+//Last modified: Mon, Jan 23, 2017 06:01:58 PM
 //Codeset: UTF-8
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -19,7 +19,7 @@ createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6246A4CC-EB47-FC97-C55F-7EA42C2F94B4";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999986;
-	setAttr ".coi" 9.0197129688459796;
+	setAttr ".coi" 9.0197129688459938;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
