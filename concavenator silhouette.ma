@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: concavenator silhouette.ma
-//Last modified: Mon, Feb 06, 2017 05:09:16 PM
+//Last modified: Mon, Feb 06, 2017 05:10:42 PM
 //Codeset: 1252
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
@@ -13,8 +13,8 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "EE1DD97A-B64C-FC66-CFB5-74829B046966";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -2.5915199046566855 4.5420323769395416 4.7947885239427075 ;
-	setAttr ".r" -type "double3" -398.73835273087815 697.39999999975271 8.6127585638493882e-016 ;
+	setAttr ".t" -type "double3" -6.1886743322336226 1.8943561328133618 -6.1281545412580423 ;
+	setAttr ".r" -type "double3" -377.73835273077282 950.59999999991874 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "6246A4CC-EB47-FC97-C55F-7EA42C2F94B4";
 	setAttr -k off ".v" no;
