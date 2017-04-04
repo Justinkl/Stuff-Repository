@@ -1,6 +1,6 @@
 //Maya ASCII 2017 scene
 //Name: Barthar_Rig_Start.ma
-//Last modified: Mon, Apr 03, 2017 07:21:21 PM
+//Last modified: Mon, Apr 03, 2017 07:24:09 PM
 //Codeset: 1252
 requires maya "2017";
 requires "stereoCamera" "10.0";
@@ -15,8 +15,8 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "A1E8E213-4954-39AC-9244-DBA74BE438DF";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -96.570116551999604 21.137983984962744 85.738859773400165 ;
-	setAttr ".r" -type "double3" 0 -1126.0000000000223 0 ;
+	setAttr ".t" -type "double3" -73.160432146089178 41.033615090979879 103.35249785505872 ;
+	setAttr ".r" -type "double3" -8.3999999999999968 -1113.6000000000097 0 ;
 	setAttr ".rp" -type "double3" 0 -7.1054273576010019e-015 7.1054273576010019e-015 ;
 	setAttr ".rpt" -type "double3" -7.2446122005702263e-013 -2.6423953128108695e-013 
 		1.3553395527283322e-013 ;
